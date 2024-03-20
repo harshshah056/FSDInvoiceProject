@@ -1,0 +1,60 @@
+.auth-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #eb7c31; /* Dark background color */
+}
+
+.sign-up,
+.sign-in {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 45%;
+  max-width: 400px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.form-input {
+  width: 80%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd; /* Light border color */
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f5f5f5; /* Light background color for input fields */
+}
+
+.form-input::placeholder {
+  color: #999;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.form-button {
+  width: 80%;
+  padding: 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.form-button:hover {
+  background-color: #2980b9;
+}
+
+/* Add more styles as needed */
